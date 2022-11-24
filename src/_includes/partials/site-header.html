@@ -1,42 +1,37 @@
 <header>
-  <nav class="mx-auto max-w-2xl px-4 sm:px-6 lg:px-8">
-    <div class="flex h-16 items-center justify-between">
-      <figure class="flex flex-shrink-0 items-center space-x-1">
-        <img
-          alt="11st starter-kit logo"
-          class="h-8 w-auto"
-          src="/images/11st-logo.svg"
-          height="32"
-          width="32"
-        />
-        <figcaption>Starter-Kit</figcaption>
-      </figure>
-      <ul class="flex space-x-4">
-        {% for item in navigation.items %} {% if item.url == page.url %} {%
-        assign highlight = 'cursor-default' %} {% assign current =
-        'aria-current="page"' %} {% else %} {% assign highlight = 'underline' %}
-        {% assign current = '' %} {% endif %}
-        <li>
-          <a
-            href="{{ item.url }}"
-            class="text-base font-bold {{ highlight }}"
-            {{
-            current
-            }}
-          >
-            {{ item.text }}
-          </a>
-        </li>
-        {% endfor %}
-        <li>
-          <a
-            href="https://github.com/stefanfrede/11st-starter-kit/"
-            class="text-base font-bold underline hover:text-green-900"
-          >
-            GitHub
-          </a>
-        </li>
-      </ul>
+  <nav class="flex justify-between p-4">
+    <a id="logo" class="flex items-center gap-2" href="/">
+      <img
+        class="h-12 w-12 rounded-full"
+        width="48"
+        height="48"
+        src="https://res.cloudinary.com/moxvallix/image/upload/v1661845511/Moxvallix/profile_jqj6xb.png"
+        alt="Moxvallix Logo"
+      />
+      <h2 class="text-3xl font-bold text-white">Moxvallix</h2>
+    </a>
+    <div id="links" class="flex items-center gap-2 text-xl text-white">
+      <a class="hover:underline" href="/about/">About</a>
+      <a class="hover:underline" href="/projects/">Projects</a>
+      <a class="hover:underline" href="/blog/">Blog</a>
+      <a class="hover:underline" href="/contact/">Contact</a>
+      <a class="flex hover:underline" href="https://github.com/moxvallix">
+        Github
+        <svg
+          class="h-4 w-4"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+          ></path>
+        </svg>
+      </a>
     </div>
   </nav>
 </header>
