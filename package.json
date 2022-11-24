@@ -9,7 +9,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:stefanfrede/11st-starter-kit.git"
+    "url": "git@github.com:moxvallix/moxvallix.com.git"
   },
   "keywords": [
     "alpinejs",
@@ -28,9 +28,9 @@
   "license": "MIT",
   "private": true,
   "bugs": {
-    "url": "https://github.com/stefanfrede/11st-starter-kit/issues"
+    "url": "https://github.com/moxvallix/moxvallix.com/issues"
   },
-  "homepage": "https://11st-starter-kit.netlify.app",
+  "homepage": "https://moxvallix.com",
   "lint-staged": {
     "*.html": "prettier --write",
     "*.css": "stylelint --cache --fix",
