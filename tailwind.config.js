@@ -7,6 +7,10 @@ module.exports = {
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
+      backgroundImage: {
+        stripes:
+          "url('https://res.cloudinary.com/moxvallix/image/upload/v1670814607/Moxvallix/mox_stripes_ni45ib.svg')",
+      },
     },
   },
   variants: {},

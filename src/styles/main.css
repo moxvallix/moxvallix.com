@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Default Link Styles */
+a {
+  @apply focus:underline focus:decoration-red-300;
+  @apply hover:underline hover:decoration-red-500 active:decoration-purple-600;
+}
