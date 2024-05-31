@@ -5,12 +5,17 @@ meta:
   desc:
     'Welcome to my personal site! I am a web developer, amateur game developer, and Minecraft enjoyer.'
 ---
-**Hi, I'm Moxvallix!**
+# Hi, I'm Moxvallix!
 
-This is my personal site, where I display my various projects, and produce meaningless rants.
-If you are bored, or interested in what I do, feel free to check out my [Projects](/projects/),
-or read articles from my [Blog](/blog/)
+I am a web developer, mainly using Ruby on Rails, and also a Minecraft Datapack Creator.
 
-If you are here looking to contact me for any reason, reach me via [Contact](/contact/).
+I like to play games, make games and break games.
 
-If you want to know more about me, and what I do, check out [About](/about/).
+## My Skills:
+- Ruby / Rails
+- HTML / CSS / JS
+- TailwindCSS / 11ty
+- Linux / Bash / Git
+- Little bit of Rust
+- Godot / GDScript
+- Lots of Datapack / Minecraft knowledge

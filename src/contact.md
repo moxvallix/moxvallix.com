@@ -1,5 +1,5 @@
 ---
-layout: 'layouts/article.html'
+layout: 'layouts/home.html'
 title: 'Contact'
 meta:
   desc:
@@ -12,8 +12,6 @@ intro:
 
 The easiest way to contact me, is email: [dev@moxvallix.com](mailto:dev@moxvallix.com).
 
-If you are a Discord user, I am **Moxvallix#6026**.
+If you are a Discord user, I am **moxvallix**.
 
 If Matrix is preferred: **@moxvallix:matrix.org**.
-
-IDK why you would, but you can DM **u/Moxvallix** on Reddit.

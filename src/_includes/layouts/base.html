@@ -1,17 +1,22 @@
 <!DOCTYPE html>
-<html class="leading-tight text-gray-300 antialiased" lang="en">
+<html
+  class="flex flex-col items-center bg-black leading-tight text-gray-300 antialiased"
+  lang="en"
+>
   <head>
     {% include "partials/site-head.html" %}
   </head>
   <body
-    class="flex min-h-screen flex-col bg-black"
+    class="flex min-h-screen w-full max-w-screen-hd grow flex-col"
     data-env="{{ node.env }}"
     x-data="{ open: false }"
     x-init="() => { setTimeout(() => { open = true }, 1500); }"
   >
     {% include "partials/site-header.html" %}
 
-    <div class="flex grow flex-col">{% block content %}{% endblock %}</div>
+    <div class="flex grow flex-col items-start">
+      {% block content %}{% endblock %}
+    </div>
 
     {% include "partials/site-footer.html" %}
 

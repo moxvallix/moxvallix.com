@@ -7,3 +7,8 @@ a {
   @apply focus:underline focus:decoration-red-300;
   @apply hover:underline hover:decoration-red-500 active:decoration-purple-600;
 }
+
+/* Safari Fixes */
+details summary.list-none::-webkit-details-marker {
+  display: none;
+}

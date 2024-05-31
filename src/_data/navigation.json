@@ -1,12 +1,30 @@
 {
   "items": [
     {
-      "text": "Home",
-      "url": "/"
+      "text": "Projects",
+      "url": "/projects/"
     },
     {
-      "text": "About",
-      "url": "/about/"
+      "text": "Contact",
+      "url": "/contact/"
+    }
+  ],
+  "external": [
+    {
+      "text": "Github",
+      "url": "https://github.com/moxvallix"
+    }
+  ],
+  "social": [
+    {
+      "image": "https://res.cloudinary.com/moxvallix/image/upload/v1674142119/Moxvallix/icons/mastodon_bo2zxj.svg",
+      "text": "Mastodon",
+      "url": "https://mastodon.online/@moxvallix"
+    },
+    {
+      "image": "https://res.cloudinary.com/moxvallix/image/upload/v1717141113/Moxvallix/icons/youtube_bhrueg.svg",
+      "text": "Youtube",
+      "url": "https://www.youtube.com/@moxvallix"
     }
   ]
 }
