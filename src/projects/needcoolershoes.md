@@ -31,13 +31,14 @@ was a vital part of the editor, as the editor was built around using other skins
 
 ## ...no, they Need Cooler Shoes
 I am a Rails developer, so making a basic CRUD app is second nature to me. Within a couple days of
-`coolshoes.moxvallix.com` being online, I had developed its sucessor: `needcoolershoes.com`.
+[coolshoes.moxvallix.com](https://coolshoes.moxvallix.com) being online, I had developed its sucessor:
+[needcoolershoes.com](https://needcoolershoes.com).
 
 I took the hacked editor I had made, and hacked it some more. I managed to replace the submission form
 with a Rails form, and soon skin submissions were working. I created a basic gallery, allowing users to browse
 skins, and use them in the editor.
 
-I started linking to that site instead of `coolshoes.moxvallix.com`, and the site started to gain some traction.
+I started linking to that site instead of [coolshoes.moxvallix.com](https://coolshoes.moxvallix.com), and the site started to gain some traction.
 
 Slowly, users were signing up, and sharing their skins. Some users even had archived skins from the old site
 themselves, and decided to re-upload them as part of the restoration. Within 11 days, we had hit 100 skins, and a
@@ -45,11 +46,11 @@ month after that we hit 500.
 
 The site has been growing since, and, as of the time of writing (31/05/2024), we have over 6800 skins!
 
-Our discord community is almost at 200 members, and it has been lovely to receive all the grateful messages
+Our Discord community is almost at 200 members, and it has been lovely to receive all the grateful messages
 users have sent thanking the team for our efforts restoring the site.
 
 ## The Future
-A new editor for the site is in the works, `indev.needcoolershoes.com`, which is slowly being developed, whenever
+A new editor for the site is in the works, [indev.needcoolershoes.com](https://indev.needcoolershoes.com), which is slowly being developed, whenever
 I have the time. One day it will replace the old editor, and bring with it a bunch of much needed new features.
 
 The site itself has been constantly improved, sporting now a feature rich gallery, new features hacked in to the
