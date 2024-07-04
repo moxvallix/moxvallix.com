@@ -5,7 +5,7 @@ meta:
   desc:
     'I am the lead developer behind NeedCoolerShoes, the restoration of Miners Need Cool Shoes.'
 ---
-# NeedCoolerShoes
+# NeedCooler<wbr>Shoes
 *A Restoration of Miners Need Cool Shoes*
 
 In January of 2023, the popular skin editing site `needcoolshoes.com`, or Miners Need Cool Shoes,
