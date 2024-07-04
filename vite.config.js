@@ -1,17 +1,27 @@
 import { defineConfig } from 'vite';
 import { VitePWA } from 'vite-plugin-pwa';
-
-const { resolve } = require('path');
+import { globSync } from 'glob';
+import path from 'node:path';
+import { fileURLToPath, URL } from 'node:url';
 
 export default defineConfig({
   root: '_site',
   build: {
     outDir: '../dist',
     rollupOptions: {
-      input: {
-        404: resolve(__dirname, '_site', '404.html'),
-        main: resolve(__dirname, '_site', 'index.html'),
-      },
+      input: Object.fromEntries(
+        globSync('_site/**/*.html').map((file) => [
+          // This remove `src/` as well as the file extension from each
+          // file, so e.g. src/nested/foo.js becomes nested/foo
+          path.relative(
+            '_site',
+            file.slice(0, file.length - path.extname(file).length),
+          ),
+          // This expands the relative paths to absolute paths, so e.g.
+          // src/nested/foo becomes /project/src/nested/foo.js
+          fileURLToPath(new URL(file, import.meta.url)),
+        ]),
+      ),
     },
     emptyOutDir: true,
   },

@@ -3,8 +3,8 @@
   "description": "11ty, powered by Vite with Tailwind CSS and Alpine.js.",
   "version": "2.0.0",
   "engines": {
-    "node": "16.x.x",
-    "npm": "8.x.x"
+    "node": "v20.15.0",
+    "npm": "10.7.0"
   },
   "main": "index.js",
   "repository": {
@@ -97,6 +97,7 @@
   "dependencies": {
     "alpinejs": "^3.0.1",
     "core-js": "^3.20.2",
+    "glob": "^10.4.2",
     "vite": "^2.7.13"
   }
 }
