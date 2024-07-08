@@ -6,12 +6,12 @@
   </div>
   <nav class="flex gap-2">
     {% for item in navigation.social %}
-    <a rel="me" href="{{ item.url }}">
+    <a rel="me" aria-label="{{ item.text }}" href="{{ item.url }}">
       <img
         width="20"
         height="20"
         src="{{ item.image }}"
-        alt="{{ item.name }}"
+        alt="{{ item.image-alt }}"
       />
     </a>
     {% endfor %}

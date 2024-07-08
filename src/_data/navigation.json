@@ -18,12 +18,14 @@
   "social": [
     {
       "image": "https://res.cloudinary.com/moxvallix/image/upload/v1674142119/Moxvallix/icons/mastodon_bo2zxj.svg",
-      "text": "Mastodon",
+      "text": "Link to my Mastodon",
+      "image-alt": "Mastodon Logo",
       "url": "https://mastodon.online/@moxvallix"
     },
     {
       "image": "https://res.cloudinary.com/moxvallix/image/upload/v1717141113/Moxvallix/icons/youtube_bhrueg.svg",
-      "text": "Youtube",
+      "text": "Link to my Youtube",
+      "image-alt": "Youtube Logo",
       "url": "https://www.youtube.com/@moxvallix"
     }
   ]
