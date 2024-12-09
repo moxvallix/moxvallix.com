@@ -17,6 +17,12 @@
   ],
   "social": [
     {
+      "image": "https://res.cloudinary.com/moxvallix/image/upload/v1733719614/Moxvallix/icons/bluesky_kntcvw.svg",
+      "text": "Link to my Bluesky",
+      "image-alt": "Bluesky Logo",
+      "url": "https://bsky.app/profile/moxvallix.com"
+    },
+    {
       "image": "https://res.cloudinary.com/moxvallix/image/upload/v1674142119/Moxvallix/icons/mastodon_bo2zxj.svg",
       "text": "Link to my Mastodon",
       "image-alt": "Mastodon Logo",
