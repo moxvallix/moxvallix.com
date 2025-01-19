@@ -50,7 +50,7 @@ Our Discord community is almost at 200 members, and it has been lovely to receiv
 users have sent thanking the team for our efforts restoring the site.
 
 ## The Future
-A new editor for the site is in the works, [indev.needcoolershoes.com](https://indev.needcoolershoes.com), which is slowly being developed, whenever
+A new editor for the site is in the works, [beta.needcoolershoes.com](https://beta.needcoolershoes.com), which is slowly being developed, whenever
 I have the time. One day it will replace the old editor, and bring with it a bunch of much needed new features.
 
 The site itself has been constantly improved, sporting now a feature rich gallery, new features hacked in to the
